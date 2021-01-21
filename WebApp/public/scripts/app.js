@@ -49,7 +49,7 @@ function onClickPlayButton() {
   // add green button
   const elementBlueButton = document.createElement('button');
   elementBlueButton.id = "blueButton";
-  elementBlueButton.innerHTML = "Y";
+  elementBlueButton.innerHTML = "X";
   playerDiv.appendChild(elementBlueButton);
   elementBlueButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 1);
@@ -67,10 +67,19 @@ function onClickPlayButton() {
   // add orange button
   const elementOrangeButton = document.createElement('button');
   elementOrangeButton.id = "orangeButton";
-  elementOrangeButton.innerHTML = "X";
+  elementOrangeButton.innerHTML = "Y";
   playerDiv.appendChild(elementOrangeButton);
   elementOrangeButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 3);
+  });
+
+  // add red button
+  const elementRedButton = document.createElement('button');
+  elementRedButton.id = "redButton";
+  elementRedButton.innerHTML = "B";
+  playerDiv.appendChild(elementRedButton);
+  elementRedButton.addEventListener ("click", function() {
+    sendClickEvent(videoPlayer, 4);
   });
 
   // add fullscreen button
