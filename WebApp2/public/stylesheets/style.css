@@ -31,7 +31,7 @@ body{
 #VideoThumbnail{
   position: absolute;
   bottom: 0;
-  right: 220px;
+  right: 200px;
   width: 40%;
   height: 40%;
 }
@@ -39,7 +39,7 @@ body{
 #greenButton{
     position: absolute;
     bottom: 20px;
-    right: 80px;
+    right: 90px;
     width: 60px;
     background-color: #4CAF50; /* Green */
     border: none;
@@ -53,7 +53,7 @@ body{
 #blueButton{
     position: absolute;
     bottom: 80px;
-    right: 140px;
+    right: 150px;
     width: 60px;
     background-color: #447FAF; /* Blue */
     border: none;
@@ -68,7 +68,7 @@ body{
 #orangeButton{
     position: absolute;
     bottom: 140px;
-    right: 80px;
+    right: 90px;
     width: 60px;
     background-color: #FF7700; /* Orange */
     border: none;
@@ -83,7 +83,7 @@ body{
 #redButton{
     position: absolute;
     bottom: 80px;
-    right: 20px;
+    right: 30px;
     width: 60px;
     background-color: #FF0000; /* Red */
     border: none;
