@@ -21,9 +21,20 @@ I have been creating Digital Twin these days. I want to stream my works to smart
 
 I run the server on my RaspberryPi 3.
 
+HTTP
+
 ```
 $ cd WebApp
 $ run ./run.sh
 ```
+
+HTTPS
+
+```
+$ cd WebApp
+$ run ./run_s.sh
+```
+
+
 
  
