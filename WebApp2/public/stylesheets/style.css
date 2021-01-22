@@ -1,0 +1,104 @@
+body{
+  margin: 0px;
+}
+
+#player{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #323232;
+}
+
+#playButton{
+  width: 15%;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+#Video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#VideoThumbnail{
+  position: absolute;
+  bottom: 0;
+  right: 220px;
+  width: 40%;
+  height: 40%;
+}
+
+#greenButton{
+    position: absolute;
+    bottom: 20px;
+    right: 80px;
+    width: 60px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#blueButton{
+    position: absolute;
+    bottom: 80px;
+    right: 140px;
+    width: 60px;
+    background-color: #447FAF; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#orangeButton{
+    position: absolute;
+    bottom: 140px;
+    right: 80px;
+    width: 60px;
+    background-color: #FF7700; /* Orange */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#redButton{
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    width: 60px;
+    background-color: #FF0000; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#fullscreenButton{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 32px;
+    height: 32px;
+}
