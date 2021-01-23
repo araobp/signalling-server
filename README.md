@@ -1,4 +1,4 @@
-# Signalling Server
+# Signalling server
 
 <img src="/doc/screenshot_pixel4.jpg" width=600>
 
