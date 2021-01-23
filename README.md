@@ -17,6 +17,11 @@ I have been creating Digital Twin these days. I want to stream my works to smart
 
 [Unity Furioos](https://unity.com/products/unity-furioos) is the solution for achieving that purpose, but I start learning how it works before using such a platform service.
 
+## Modifications I have made for smartphones
+
+- Four buttons: Y, A, X, B buttons
+- One camera rather than two cameras: use a combination of Unity's Render Texture and RawImage to support multiple cameras on the Unity side
+
 ## Running the signalling server for Unity Render Streaming
 
 I run the server on my RaspberryPi 3.
