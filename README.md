@@ -21,6 +21,7 @@ I have been creating Digital Twin these days. I want to stream my works to smart
 
 - Four buttons: Y, A, X, B buttons
 - One camera rather than two cameras: use a combination of Unity's Render Texture and RawImage to support multiple cameras on the Unity side
+- Remove remote UI control: use HTML5 buttons only as remote UI input
 
 ## Running the signalling server for Unity Render Streaming
 
