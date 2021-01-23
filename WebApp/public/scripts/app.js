@@ -48,6 +48,12 @@ function onClickPlayButton() {
   elementBlueButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 1);
   });
+  elementBlueButton.addEventListener ("touchstart", function() {
+    sendClickEvent(videoPlayer, 5);
+  });
+  elementBlueButton.addEventListener ("touchend", function() {
+    sendClickEvent(videoPlayer, 6);
+  });
 
   // add green button
   const elementGreenButton = document.createElement('button');
@@ -56,6 +62,12 @@ function onClickPlayButton() {
   playerDiv.appendChild(elementGreenButton);
   elementGreenButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 2);
+  });
+  elementGreenButton.addEventListener ("touchstart", function() {
+    sendClickEvent(videoPlayer, 7);
+  });
+  elementGreenButton.addEventListener ("touchend", function() {
+    sendClickEvent(videoPlayer, 8);
   });
 
   // add orange button
@@ -66,6 +78,12 @@ function onClickPlayButton() {
   elementOrangeButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 3);
   });
+  elementOrangeButton.addEventListener ("touchstart", function() {
+    sendClickEvent(videoPlayer, 9);
+  });
+  elementOrangeButton.addEventListener ("touchend", function() {
+    sendClickEvent(videoPlayer, 10);
+  });
 
   // add red button
   const elementRedButton = document.createElement('button');
@@ -74,6 +92,12 @@ function onClickPlayButton() {
   playerDiv.appendChild(elementRedButton);
   elementRedButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 4);
+  });
+  elementRedButton.addEventListener ("touchstart", function() {
+    sendClickEvent(videoPlayer, 11);
+  });
+  elementRedButton.addEventListener ("touchend", function() {
+    sendClickEvent(videoPlayer, 12);
   });
 
   // add fullscreen button
