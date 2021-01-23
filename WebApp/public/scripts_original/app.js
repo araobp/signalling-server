@@ -38,7 +38,13 @@ function onClickPlayButton() {
   elementVideo.style.touchAction = 'none';
   playerDiv.appendChild(elementVideo);
 
-  setupVideoPlayer([elementVideo]).then(value => videoPlayer = value);
+  // add video thumbnail
+  const elementVideoThumb = document.createElement('video');
+  elementVideoThumb.id = 'VideoThumbnail';
+  elementVideoThumb.style.touchAction = 'none';
+  playerDiv.appendChild(elementVideoThumb);
+
+  setupVideoPlayer([elementVideo, elementVideoThumb]).then(value => videoPlayer = value);
 
   // add blue button
   const elementBlueButton = document.createElement('button');
