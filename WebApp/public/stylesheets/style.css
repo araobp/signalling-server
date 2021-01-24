@@ -2,6 +2,10 @@ body{
   margin: 0px;
 }
 
+:focus {
+      outline: none;
+    }
+
 #player{
   position: absolute;
   top: 0;
@@ -50,6 +54,22 @@ body{
     display: inline-block;
     font-size: 16px;
 }
+
+#redButton{
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    width: 60px;
+    background-color: #FF0000; /* Red */
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 #blueButton{
     position: absolute;
     bottom: 80px;
@@ -80,12 +100,12 @@ body{
     font-size: 16px;
 }
 
-#redButton{
+#arrowDown {
     position: absolute;
-    bottom: 80px;
-    right: 20px;
+    bottom: 20px;
+    left: 80px;
     width: 60px;
-    background-color: #FF0000; /* Red */
+    background-color: gray; 
     border: none;
     color: white;
     padding: 15px 15px;
@@ -95,7 +115,52 @@ body{
     font-size: 16px;
 }
 
-#fullscreenButton{
+#arrowRight {
+    position: absolute;
+    bottom: 80px;
+    left: 140px;
+    width: 60px;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#arrowLeft {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    width: 60px;
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#arrowUp {
+    position: absolute;
+    bottom: 140px;
+    left: 80px;
+    width: 60px;
+    background-color: gray; 
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#fullscreenButton {
     position: absolute;
     top: 25px;
     right: 25px;
