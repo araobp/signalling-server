@@ -2,7 +2,7 @@
 
 <img src="/doc/screenshot_pixel4.jpg" width=600>
 
-This repo is a copy of https://github.com/Unity-Technologies/UnityRenderStreaming/tree/develop/WebApp with some minor modifications to optimize the web UI for my smartphones.
+This repo is a copy of https://github.com/Unity-Technologies/UnityRenderStreaming/tree/develop/WebApp with some minor modifications to optimize the web UI for smartphones.
 
 ```
               +------------[Signalling server]----------+
