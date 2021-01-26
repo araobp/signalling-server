@@ -44,120 +44,64 @@ body{
     position: absolute;
     bottom: 20px;
     right: 80px;
-    width: 60px;
-    background-color: #4CAF50; /* Green */
+    background-color: Transparent;
     border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 #redButton{
     position: absolute;
-    bottom: 80px;
-    right: 20px;
-    width: 60px;
-    background-color: #FF0000; /* Red */
+    bottom: 85px;
+    right: 15px;
+    background-color: Transparent; 
     border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 #blueButton{
     position: absolute;
-    bottom: 80px;
-    right: 140px;
-    width: 60px;
-    background-color: #447FAF; /* Blue */
+    bottom: 85px;
+    right: 145px;
+    background-color: Transparent; 
     border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 #orangeButton{
     position: absolute;
-    bottom: 140px;
+    bottom: 150px;
     right: 80px;
-    width: 60px;
-    background-color: #FF7700; /* Orange */
-    border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    background-color: Transparent; 
+    border: None;
 }
 
 #arrowDown {
     position: absolute;
     bottom: 20px;
     left: 80px;
-    width: 60px;
-    background-color: gray; 
+    background-color: Transparent; 
     border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 #arrowRight {
     position: absolute;
-    bottom: 80px;
-    left: 140px;
-    width: 60px;
-    background-color: gray;
+    bottom: 85px;
+    left: 145px;
+    background-color: Transparent;
     border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 #arrowLeft {
     position: absolute;
-    bottom: 80px;
-    left: 20px;
-    width: 60px;
-    background-color: gray;
+    bottom: 85px;
+    left: 15px;
+    background-color: Transparent;
     border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 #arrowUp {
     position: absolute;
-    bottom: 140px;
+    bottom: 150px;
     left: 80px;
-    width: 60px;
-    background-color: gray; 
+    background-color: Transparent; 
     border: none;
-    color: white;
-    padding: 15px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
 }
 
 #fullscreenButton {
@@ -166,4 +110,14 @@ body{
     right: 25px;
     width: 32px;
     height: 32px;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+}
+
+.arrow {
+  width: 60px;
+  height: 60px;
 }

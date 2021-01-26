@@ -43,7 +43,10 @@ function onClickPlayButton() {
   // add green button
   const elementGreenButton = document.createElement('button');
   elementGreenButton.id = "greenButton";
-  elementGreenButton.innerHTML = "A";
+  const elementButtonA = document.createElement('img');
+  elementButtonA.src = "/images/ButtonA.png";
+  elementButtonA.classList.add('button');
+  elementGreenButton.appendChild(elementButtonA);
   playerDiv.appendChild(elementGreenButton);
   elementGreenButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 1);
@@ -58,7 +61,10 @@ function onClickPlayButton() {
   // add red button
   const elementRedButton = document.createElement('button');
   elementRedButton.id = "redButton";
-  elementRedButton.innerHTML = "B";
+  const elementButtonB = document.createElement('img');
+  elementButtonB.src = "/images/ButtonB.png";
+  elementButtonB.classList.add('button');
+  elementRedButton.appendChild(elementButtonB);
   playerDiv.appendChild(elementRedButton);
   elementRedButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 2);
@@ -73,7 +79,10 @@ function onClickPlayButton() {
   // add blue button
   const elementBlueButton = document.createElement('button');
   elementBlueButton.id = "blueButton";
-  elementBlueButton.innerHTML = "X";
+  const elementButtonX = document.createElement('img');
+  elementButtonX.src = "/images/ButtonX.png";
+  elementButtonX.classList.add('button');
+  elementBlueButton.appendChild(elementButtonX);
   playerDiv.appendChild(elementBlueButton);
   elementBlueButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 3);
@@ -88,7 +97,10 @@ function onClickPlayButton() {
   // add orange button
   const elementOrangeButton = document.createElement('button');
   elementOrangeButton.id = "orangeButton";
-  elementOrangeButton.innerHTML = "Y";
+  const elementButtonY = document.createElement('img');
+  elementButtonY.src = "/images/ButtonY.png";
+  elementButtonY.classList.add('button');
+  elementOrangeButton.appendChild(elementButtonY);
   playerDiv.appendChild(elementOrangeButton);
   elementOrangeButton.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 4);
@@ -103,7 +115,10 @@ function onClickPlayButton() {
   // add arrow down key
   const elementArrowDown = document.createElement('button');
   elementArrowDown.id = "arrowDown";
-  elementArrowDown.innerHTML = "v";
+  const elementArrowDownImg = document.createElement('img');
+  elementArrowDownImg.src = "/images/ArrowDown.png";
+  elementArrowDownImg.classList.add('arrow');
+  elementArrowDown.appendChild(elementArrowDownImg);
   playerDiv.appendChild(elementArrowDown);
   elementArrowDown.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 13);
@@ -118,7 +133,10 @@ function onClickPlayButton() {
   // add arrow right key
   const elementArrowRight = document.createElement('button');
   elementArrowRight.id = "arrowRight";
-  elementArrowRight.innerHTML = ">";
+  const elementArrowRightImg = document.createElement('img');
+  elementArrowRightImg.src = "/images/ArrowRight.png";
+  elementArrowRightImg.classList.add('arrow');
+  elementArrowRight.appendChild(elementArrowRightImg);
   playerDiv.appendChild(elementArrowRight);
   elementArrowRight.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 14);
@@ -133,7 +151,10 @@ function onClickPlayButton() {
   // add arrow left key
   const elementArrowLeft = document.createElement('button');
   elementArrowLeft.id = "arrowLeft";
-  elementArrowLeft.innerHTML = "<";
+  const elementArrowLeftImg = document.createElement('img');
+  elementArrowLeftImg.src = "/images/ArrowLeft.png";
+  elementArrowLeftImg.classList.add('arrow');
+  elementArrowLeft.appendChild(elementArrowLeftImg);
   playerDiv.appendChild(elementArrowLeft);
   elementArrowLeft.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 15);
@@ -148,7 +169,10 @@ function onClickPlayButton() {
   // add arrow up key
   const elementArrowUp = document.createElement('button');
   elementArrowUp.id = "arrowUp";
-  elementArrowUp.innerHTML = "^";
+  const elementArrowUpImg = document.createElement('img');
+  elementArrowUpImg.src = "/images/ArrowUp.png";
+  elementArrowUpImg.classList.add('arrow');
+  elementArrowUp.appendChild(elementArrowUpImg);
   playerDiv.appendChild(elementArrowUp);
   elementArrowUp.addEventListener ("click", function() {
     sendClickEvent(videoPlayer, 16);
