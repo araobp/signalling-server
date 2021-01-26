@@ -2,7 +2,7 @@
 
 <img src="/doc/screenshot_pixel4.jpg" width=600>
 
-This repo is a copy of https://github.com/Unity-Technologies/UnityRenderStreaming/tree/develop/WebApp with some minor modifications to optimize the web UI for my smartphones.
+This repo is a copy of https://github.com/Unity-Technologies/UnityRenderStreaming/tree/develop/WebApp with some minor modifications to optimize the web UI for smartphones.
 
 ```
               +------------[Signalling server]----------+
@@ -19,7 +19,9 @@ I have been creating Digital Twin these days. I want to stream my works to smart
 
 ## Modifications I have made for smartphones
 
-- Four buttons: Y, A, X, B buttons
+- Add four buttons: A, B, X, Y buttons
+- Add four arrow keys: down, right, left, up
+- Support "touchstart" and "touchend" events to the buttons and keys
 - One camera rather than two cameras: use a combination of Unity's Render Texture and RawImage to support multiple cameras on the Unity side
 - Remove remote UI control: use HTML5 buttons only as remote UI input
 
@@ -40,7 +42,9 @@ HTTPS
 $ cd WebApp
 $ run ./run_s.sh
 ```
-## Element ID of the buttons
+## Element/event ID of the buttons and the keys
+
+These elements are created by JavaScipt at a run time:
 
 ```
 +---------+--------+------------+----------+
