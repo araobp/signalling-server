@@ -141,7 +141,7 @@ export class VideoPlayer {
     // It can receive two video tracks and one audio track from Unity app.
     // This operation is required to generate offer SDP correctly.
     this.pc.addTransceiver('video', { direction: 'recvonly' });
-    this.pc.addTransceiver('video', { direction: 'recvonly' });
+    //this.pc.addTransceiver('video', { direction: 'recvonly' });
     this.pc.addTransceiver('audio', { direction: 'recvonly' });
 
     // create offer
